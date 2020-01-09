@@ -5,6 +5,6 @@ import (
 )
 
 type UserRepository interface {
-    Insert(DB firestore, userID, name, email string) error
-    GetByUserID(DB firestore, userID string) ([]*domain.User, error)
+    Insert(DB, userID, name, email string) error
+    GetByUserID(DB, userID string) ([]*domain.User, error)
 }
