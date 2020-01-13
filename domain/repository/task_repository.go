@@ -3,7 +3,7 @@ package repository
 import (
 	"context"
 
-	"rest_api/domain/model"
+	"kanban/domain/model"
 )
 
 type TaskRepository interface {

@@ -6,9 +6,9 @@ import (
 	"net/http"
 
 	"github.com/julienschmidt/httprouter"
-	handler "rest_api/interfaces/handler/rest"
-	"rest_api/infrastructure/persistence"
-	"rest_api/application/usecase"
+	handler "kanban/interfaces/handler/rest"
+	"kanban/infrastructure/persistence"
+	"kanban/application/usecase"
 )
 
 func main() {

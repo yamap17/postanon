@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"rest_api/domain/model"
-	"rest_api/domain/repository"
+	"kanban/domain/model"
+	"kanban/domain/repository"
 )
 
 type taskPersistence struct{}

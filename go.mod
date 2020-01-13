@@ -1,4 +1,4 @@
-module rest_api
+module kanban
 
 go 1.13
 

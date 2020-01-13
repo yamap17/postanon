@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/julienschmidt/httprouter"
-	"rest_api/application/usecase"
+	"kanban/application/usecase"
 )
 
 type TaskHandler interface {
